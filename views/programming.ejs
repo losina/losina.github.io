@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Bootstrap Things -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Jina Lo</title>
+</head>
+
+<body>
+    <section id="intro">
+            <div class="container-fluid">
+                <%- include('partials/header'); -%>
+            </div>
+    </section>
+    <section id="programming-body">
+<div class="design-description pro-description">
+            <div class="stroke-container">
+                <div class="pro-description-text">
+                        <h2> PROGRAMMING </h2>
+                        <h3> Data Science and Full Stack Development</h3>
+                        <h4> Java | Python | JavaScript | HTML | CSS | Linux</h4>    
+                </div>
+                <img  class="stroke des-stroke" src="/img/yellow-stroke.png"></img>
+      
+            </div>
+    </div>
+    <div class="pro-grid">
+        <div class="pro-card website">
+            <a href="https://github.com/losina/JLwebsite">
+            <h2>Personal Website </h2>
+                <h3 class="tags highlight">#JavaScript #HTML/CSS #jQuery #Node.js #Express.js #Sketch</h3>
+            <p class="project-des"> Personal website for the portfolio! More functionalities will be added soon. </p>
+            <p class="github" style="text-align: right; margin-top:4px"> github ></p>
+            </a>
+        </div>        
+        <div class="pro-card anabada">
+            <h2>Anabada</h2>
+            <h3 class="tags highlight">#TeamProject #Android #JavaScript #HTML/CSS #MongoDB #GoogleMapApi</h3>
+            <p class="project-des"> An Android app and a website that serve as a platform for a user to
+                    exchange unused or unnecessary items with other users </p>
+
+        </div>
+        <div class="pro-card roomies">
+            <a href="https://github.com/losina/cis197_Roomies">
+                <h2>Roomies</h2>
+                <h3 class="tags highlight">#JavaScript #HTML/CSS #Node.js #Express.js #MongoDB #GoogleMapApi</h3>
+                <p class="project-des"> A roommate management platform with roommate search, group page and task management functionalities </p>
+                <p class="github" style="text-align: right; margin-top:4px"> github ></p>
+            </a>
+        </div>
+        <div class="pro-card fabrec">
+                <a href="https://github.com/kimny817/NETS213-Fabrec">
+                <h2>Fabrec</h2>
+                <h3 class="tags highlight">#TeamProject #Python #CrowdSourcing</h3>
+                <p class="project-des"> A crowdsourcing-based fashion recommendations service utilizing Amazon Mechincal Turk platform</p>
+                <p class="github" style="text-align: right; margin-top:4px"> github ></p>
+                </a>
+            </div>
+        <div class="pro-card tobe">
+                <h2>More to be added...</h2>
+
+        </div>
+
+
+
+    </div>
+    
+    </section>
+    
+    <%- include('partials/footer'); -%>
+
+</body>
+
+</html>
